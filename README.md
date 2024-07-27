@@ -1,17 +1,11 @@
-## Foundry
+## stakeRNT
+A staking mining project written in Solidity in the foundry implements the following functions:
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+1. Users can stake the project's RNT token (custom ERC20+ERC2612) at any time to start earning the project's Token (esRNT);  
+2. The staked RNT can be unstaked and withdrawn at any time;  
+3. The esRNT reward can be received at any time, and 1 esRNT can be rewarded every day for every 1 RNT staked;  
+4. esRNT is a locked RNT, 1 esRNT can be exchanged for 1 RNT after 30 days, and it is released linearly over time. It supports early exchange of esRNT for RNT, but the locked part will be burned.  
 
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
 
 ## Usage
 
